@@ -1,0 +1,200 @@
+/* My   Border  */
+
+
+/* My   Border  */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+h1{
+    font-size: 50px;
+}
+/* Nav Bar start */
+
+nav{
+    position: fixed;
+    top: 0;
+    background-color: blueviolet;
+    width: 100%;
+    padding: 10px 0;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    
+  
+}
+nav ul li{
+    float: right;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px 15px;
+    background: tomato;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;  
+}
+nav ul li a:hover{
+    background: #000;
+    transition: 0.9s;
+    
+}
+/* Nav Bar start */
+
+/* Mamin Section start */
+main{
+    margin-top: 100px;
+}
+.top-stay{
+    display: flex;
+    margin-top: 50px;
+}
+.max-wight{
+        width: 50%;
+    }
+ .max-wight img{
+     width: 400px ;
+     height: 400px ;
+     margin-left: 200px;
+ }   
+
+ .left-info{
+    margin-left: 40px;
+ }
+ .color-set{
+     color: yellowgreen;
+ }
+
+ .btn{
+     border: none;
+     background-color: tomato;
+     color: #fff;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     padding: 8px 15px;
+     font-size: 15px;
+     font-weight: 600;
+     border-radius: 5px;
+ }
+
+ /* Card section start */
+.card-h1{
+    text-align: center;
+}
+.card-section{
+    display: flex;
+    margin: auto;
+}
+.card-aria{
+    width: 25%;
+    height: 300px;
+    box-shadow: 10px 8px 15px  rgba(0, 0, 0, 0.2);
+    margin: auto;
+    padding: 0 15px;
+    border-radius: 8px;
+    
+}
+.card-aria img{
+    width: 25%;
+}
+.misshon{
+    background-color: rgb(241, 166, 204);
+}
+.succcess{
+    background-color: rgb(238, 159, 159);
+}
+.gole{
+    background-color: rgb(214, 243, 171);
+}
+
+ /* Card section End */
+/* Main Section End */
+/* Footer start */
+    footer{
+        background-color: tomato;
+        height: 150px;
+        margin-top: 30px;
+        text-align: center;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+    footer h3{
+
+    }
+    /* .footer-area{
+        
+    } */
+    
+/* Footer End */
+
+
+
+
+
+/* Tabel start */
+.table-section {
+    text-align: center;
+    margin-top: 100px;
+}
+table{
+    width: 90%;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+}
+th,td{
+    border: 1px solid black;
+    padding: 5px 10px;
+    font-size: 18px;
+    ;
+}
+
+/* Tabel End */
+
+/* form anme start */
+main h1{
+    text-align: center;
+}
+.row{
+    display: flex;
+}
+.col-25{
+    float: left;
+    width: 25%;
+    margin-top: 5px;
+}
+.col-75{
+    float: right;
+    width: 75%;
+    margin-top: 5px;
+}
+input[type=text],textarea,select{
+    width: 90%;
+    padding: 5px;
+}
+label{
+    padding: 12px;
+    
+}
+input[type=submit],input[type=reset]{
+    float: right;
+    color: rgb(0, 0, 0);
+    background-color: gray;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+input[type=reset]{
+    margin-right: 10px;
+}
+
+/* form anme End */
